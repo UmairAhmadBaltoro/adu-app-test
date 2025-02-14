@@ -1,0 +1,161 @@
+[
+  {
+    "id": 1,
+    "message": "Which city is your property located?",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "responseType": "text",
+    "next": 2
+  },
+  {
+    "id": 2,
+    "message": "What is your property address or APN?",
+    "position": {
+      "x": 0,
+      "y": 260
+    },
+    "responseType": "text",
+    "next": 3
+  },
+  {
+    "id": 3,
+    "message": "Here's your property report...",
+    "position": {
+      "x": 0,
+      "y": 520
+    },
+    "responseType": "auto",
+    "next": 4
+  },
+  {
+    "id": 4,
+    "message": "Next, I assume you are here today because you want to build an ADU. Type Yes or No",
+    "position": {
+      "x": 0,
+      "y": 780
+    },
+    "responseType": "buttons",
+    "options": [
+      {
+        "next": "6",
+        "response": "YES"
+      },
+      {
+        "next": "5",
+        "response": "NO"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "message": "Alright, is there anything else I can help today?",
+    "position": {
+      "x": -225,
+      "y": 1160
+    }
+  },
+  {
+    "id": 6,
+    "message": "Before we get started, with this tool you can design your ADU by yourself. Type Yes or No",
+    "position": {
+      "x": 200,
+      "y": 1160
+    },
+    "responseType": "buttons",
+    "options": [
+      {
+        "next": "8",
+        "response": "YES"
+      },
+      {
+        "next": "5",
+        "response": "NO"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "message": "Alright, is there anything else I can help today?",
+    "position": {
+      "x": -25,
+      "y": 1555
+    }
+  },
+  {
+    "id": 8,
+    "message": "Let us first take a closer look at your site layout.",
+    "position": {
+      "x": 430,
+      "y": 1555
+    },
+    "responseType": "auto",
+    "next": 9
+  },
+  {
+    "id": 9,
+    "message": "Here\u2019s a site plan showing your property. Confirm the diagram meets the condition. Type Yes or No",
+    "position": {
+      "x": 430,
+      "y": 1815
+    },
+    "responseType": "buttons",
+    "options": [
+      {
+        "next": "10",
+        "response": "YES"
+      },
+      {
+        "next": "11",
+        "response": "NO"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "message": "Do you want to maximize available space or set a specific size? Type maximize or size",
+    "position": {
+      "x": 220,
+      "y": 2225
+    },
+    "responseType": "buttons",
+    "options": [
+      {
+        "next": "12",
+        "response": "maximize"
+      },
+      {
+        "next": "13",
+        "response": "specific"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "message": "Do you want to change dimensions or structures? Type dimensions or structures",
+    "position": {
+      "x": 630,
+      "y": 2240
+    },
+    "responseType": "text"
+  },
+  {
+    "id": 12,
+    "message": "What size do you want your ADU to be?",
+    "position": {
+      "x": 40,
+      "y": 2650
+    },
+    "responseType": "text"
+  },
+  {
+    "id": 13,
+    "message": "Please pick from available ranges:\\n150 SF - 400 SF \\n400 SF - 600 SF \\n600 SF - 800 SF \\n800SF - 1,000 SF",
+    "position": {
+      "x": 420,
+      "y": 2635
+    },
+    "responseType": "buttons"
+  }
+]

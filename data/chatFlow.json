@@ -1,0 +1,25 @@
+[
+  { "id": 1, "message": "Which city is your property located?", "type": "assistant", "next": 2 },
+  { "id": 2, "message": "What is your property address or APN?", "type": "assistant", "next": 3 },
+  { "id": 3, "message": "Here's your property report...", "type": "assistant", "next": 4 },
+  { "id": 4, "message": "Next, I assume you are here today because you want to build an ADU. Type Yes or No", "type": "assistant", "options": [
+      { "response": "YES", "next": 6 },
+      { "response": "NO", "next": 5 }
+    ]
+  },
+  { "id": 5, "message": "Alright, is there anything else I can help today?", "type": "assistant" },
+  { "id": 6, "message": "Before we get started, with this tool you can design your ADU by yourself. Type Yes or No", "type": "assistant", "options": [
+      { "response": "YES", "next": 8 },
+      { "response": "NO", "next": 7 }
+    ]
+  },
+  { "id": 7, "message": "Alright, is there anything else I can help today?", "type": "assistant" },
+  { "id": 8, "message": "Let us first take a closer look at your site layout.", "type": "assistant", "next": 9 },
+  { "id": 9, "message": "Here’s a site plan showing your property. Confirm the diagram meets the condition. Type Yes or No", "type": "assistant", "options": [
+      { "response": "YES", "next": 10 },
+      { "response": "NO", "next": 11 }
+    ]
+  },
+  { "id": 10, "message": "Do you want to maximize available space or set a specific size? Type maximize or size", "type": "assistant" },
+  { "id": 11, "message": "Do you want to change dimensions or structures? Type dimensions or structures", "type": "assistant" }
+]
