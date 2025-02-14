@@ -43,7 +43,3 @@ python app.py
 The application runs on:
 - Frontend: http://localhost:3000
 - Backend: http://localhost:5000
-
-## License
-
-MIT
